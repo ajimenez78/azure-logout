@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useAuthenticator } from 'cepsa-auth'
 
 const count = ref(0)
+const authenticator = useAuthenticator()
 </script>
 
 <template>
@@ -25,6 +27,7 @@ const count = ref(0)
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
+  <button type="button" @click="authenticator.login">Login</button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
