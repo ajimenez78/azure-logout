@@ -5,10 +5,10 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>Hello world</h1>
+  <h1>Hello logout</h1>
 
   <p>
-    Recommended IDE setup:
+    Recommended IDE setup Logout:
     <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
     +
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
