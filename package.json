@@ -8,7 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cepsa-auth": "^0.0.3",
+    "@azure/msal-browser": "^2.26.0",
+    "@cepsa/cepsa-auth": "^0.0.4",
     "vue": "^3.2.25",
     "vue-router": "^4.0.16"
   },

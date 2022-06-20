@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useAuthenticator } from 'cepsa-auth'
+import { useAuthenticator } from '@cepsa/cepsa-auth'
 
 const count = ref(0)
 const authenticator = useAuthenticator()
